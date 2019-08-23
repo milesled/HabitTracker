@@ -1,12 +1,13 @@
-.App {
+.app, .header {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
  
 .Square {
-  width: 25px;
-  height: 25px;
-  margin: 10px;
+  width: 45px;
+  height: 45px;
+  margin: 25px;
   border-radius: 4px;
 }
 
